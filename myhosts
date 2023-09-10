@@ -9,3 +9,15 @@
 [myDBservers]
 10.1.0.20
 10.1.0.30
+
+[myubuntuservers]
+10.1.0.5
+
+[myredhatservers]
+10.1.0.6
+
+
+[mywebservers:vars]
+var01= value
+mywebpackonubuntu= apache2
+mywebpackonredhat= httpd 
